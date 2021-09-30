@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='%3Clink%20rel="preconnect"%20href="https:/fonts.gstatic.com"%3E
+%20%20%20%20%3Clink%20href="https:/fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&amp;display=swap" rel="stylesheet"&gt;' rel='stylesheet'> 
+    <title>Café | Contact Us</title>
+</head>
+<body class="main-bg">
+    <header>
+        <nav>
+            <ul>
+              <div id="home">
+                <a href="index.html">Kakku maailma</a> <!--Temporary logo name for testing.-->
+              </div>
+                <li><a href="aboutus.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="catering.html">Catering</a></li>
+                <li><a href="./contactus.html">Contact us</a></li>
+                <li><a href="shoppingcart.html">Shopping Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="form">
+        <h1>Contact Us</h1>
+        <h4>Please leave us feedback on our products or your experience with us and we will return to you shortly.</h4>
+        
+        <form action="my-post-script.php" method="POST">
+          <fieldset>
+            <legend>Contact information</legend> <!-- Fieldsetin otsikko -->
+            <p>
+              <label for="firstName">First name</label><br>
+              <input type="text" id="firstName" name="First name" placeholder="">
+            </p>
+            <p>
+              <label for="lastName">Last name</label><br>
+              <input type="text" id="lastName" name="Sukunimi" placeholder="">
+            </p>
+            <p>
+              <label for="email">* Email</label><br>
+              <input type="email" id="email" name="email" placeholder="examplename@example.com" required>
+            </p>
+
+            <p>
+              <label for="tel">Phone</label><br>
+                <input type="tel" id="tel" name="phone" placeholder="">
+            </p>
+          </fieldset>
+          <p>
+              <label for="message">Your feedback</label><br>
+              <textarea id="message" name="message" rows="5" cols="50"></textarea>
+          </p>
+          <p>
+              <label for="contact">Contact me through</label><br>
+              <select id="contact" name="contact" required>
+                <option value="">Choose your preferred way of contacting</option>
+                <option value="phone">Phone</option>
+                <option value="email" selected>Email</option> <!-- selected tekee sen, että kyseinen vaihtoehto on valittuna valmiiksi oletuksena -->
+                <option value="no">Don't contact me</option>
+              </select>
+          </p>
+          <p>
+            <button class="formBtn" type="submit">Send</button>
+          </p>
+        </form>
+      </div> <!-- /.form -->
+    </main>
+  <footer class="first-foot">
+    <div class="footer_internal_links">
+      <ul>
+        <li>
+          <a href="#">Products</a>
+        </li>
+        <li>
+          <a href="#">Catering</a>
+        </li>
+        <li>
+          <a href="./contactus.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer_social_media">
+      <img src="images/facebook.png">
+      <img src="images/instagram.png">
+      <img src="images/twitter.png">
+    </div>
+    <div class="footer_contact_info">
+      <ul>
+        <li>Address</li>
+        <li>Tel. 101010101</li>
+        <li>email@mail.com</li>
+      </ul>
+    </div>
+  </footer>
+  <p class="copyright">copyright</p>  
+</body>
+</html>
