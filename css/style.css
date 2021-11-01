@@ -25,6 +25,11 @@ html, body {
   color: #A7AC38;
 }
 
+.jumbotron {
+  background-image: url("../img1/pexels-photo-942809.jpeg");
+  background-size: cover;
+}
+
 .well {
   display: flex;
   align-items: center;
@@ -193,6 +198,14 @@ footer a {
 
 #copyright {
   color: #C4A53E;
+}
+
+#copyright:hover {
+    transform: translateY(0) scale(1.2);
+    letter-spacing: 2px;
+    transition: 0.7s;
+    text-decoration: none;
+    color:  #C4A53E;
 }
 
 /*---Media Queries --*/
