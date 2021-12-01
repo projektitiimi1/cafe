@@ -208,6 +208,33 @@ footer a {
     color:  #C4A53E;
 }
 
+/*shopping cart*/
+
+.shopping {
+  padding-left: 15px;
+}
+
+.card-body img {
+  height: 200px;
+  }
+
+  #signin {
+    margin-top: 40px;
+    width: 350px;
+  }
+
+  #dropdownMenuButton {
+    width: 350px; 
+    padding-right: 10px;
+  }
+
+  #droptext {
+    width: 350px;
+    font-size: 12px;
+   
+  }
+
+
 /*---Media Queries --*/
 @media (max-width: 992px) {
   .social a {
