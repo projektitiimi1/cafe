@@ -599,82 +599,14 @@ footer.aboutus-foot {
 
 /* Shopping cart styles */
 
-.flex {
-display: flex;
-flex-direction: row;
-}
-.shopping-basket {
-margin-top: 130px;
-  margin-left: 30px;
-  
-  
+.shopping {
+  padding-left: 15px;
 }
 
-.left-box {
-  height: 500px;
-  width: 60%;
-  float: left;
-  background-color: white;
-  margin-left: 30px;
-  margin-top: 20px;
- 
- 
-}
+.card-body img {
+  height: 200px;
+  }
 
-.left-box p {
-margin-top: 30px;
-margin: 10px;
-}
-
-.left-box .one img {
-  margin-top: 15px;
-  margin-left: 5px;
-height: 150px;
-}
-
-.left-box .one {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-.left-box .two {
-  display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-}
-
-.left-box .three {
-  display: flex;
-  justify-content: flex-end;
-  margin-left: 20px;
-  margin-right: 20px;
-margin-bottom: 20px;
-}
-
-
-
- .right-box {
-  height: 500px;
-  width: 34%;
-  float: right;
-  background-color: white;
-  margin-top: 20px;
-  margin-right: 30px;
-  margin-left: 30px;
-  text-align: center;
-  justify-content: center;
-align-items: center;
-display: flex;
- }
-
-#signin {
-padding-right: 5px;
-}
 
 
 
