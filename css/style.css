@@ -218,21 +218,6 @@ footer a {
   height: 200px;
   }
 
-  #signin {
-    margin-top: 40px;
-    width: 350px;
-  }
-
-  #dropdownMenuButton {
-    width: 350px; 
-    padding-right: 10px;
-  }
-
-  #droptext {
-    width: 350px;
-    font-size: 12px;
-   
-  }
 
 
 /*---Media Queries --*/
